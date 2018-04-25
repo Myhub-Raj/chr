@@ -1,8 +1,9 @@
-.content {
+.container {
   Background: #D74254;
   background-image: linear-gradient(-180deg, #EA3E3E 0%, #4F0606 97%);
   display: grid;
-  grid-template-columns: 1fr 600px 1fr;
+  grid-template-columns: repeat(autofill,150px);
+
 
   .cont-child5{
     font-style: italic;
@@ -11,14 +12,6 @@
     transform: rotate(-16deg);
     color: white;
   }
-  .caption{
-    font-family: calibri;
-    font-size: 24px;
-    transform: rotate(15.5deg);
-    line-height: 15em;
-    float: left;
-  }
-
 
    .cont-child8{
      font-family: calibri;
