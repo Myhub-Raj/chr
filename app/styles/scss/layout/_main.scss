@@ -1,11 +1,11 @@
 
-
-
 .container {
   Background: #D74254;
   background-image: linear-gradient(-180deg, #EA3E3E 0%, #4F0606 97%);
+  height: 1000px;
   display: grid;
-  grid-template-columns: repeat(autofill,150px);
+  grid-template-columns: 1fr 600px 1fr;
+
 
 
   .cont-child5{
@@ -45,6 +45,21 @@
 
    }
 
-
-
   }
+
+/* media queries */
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+/* Styles */
+}
+
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+/* Styles */
+}
